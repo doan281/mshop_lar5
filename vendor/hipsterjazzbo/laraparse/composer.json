@@ -1,0 +1,22 @@
+{
+  "name": "hipsterjazzbo/laraparse",
+  "description": "Integrate your Laravel 5 project with Parse (parse.com)",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Caleb Fidecaro",
+      "email": "calebfidecaro@gmail.com"
+    }
+  ],
+  "require": {
+    "laravel/framework": "5.0.*|5.1.*|5.2.*",
+    "parse/php-sdk": "~1.2.0",
+    "nesbot/carbon": "~1.16"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaraParse\\": "src/"
+    }
+  },
+  "minimum-stability": "stable"
+}

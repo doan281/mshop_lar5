@@ -1,0 +1,20 @@
+<?php
+
+namespace DummyNamespace;
+
+use LaraParse\Repositories\AbstractParseRepository;
+use DummyNamespace\Contracts\DummyClassRepository;
+
+class ParseDummyClassRepository extends AbstractParseRepository implements DummyClassRepository
+{
+
+    /**
+     * Specify Parse Class name
+     *
+     * @return string
+     */
+    public function getParseClass()
+    {
+        return '{{parseClass}}';
+    }
+}

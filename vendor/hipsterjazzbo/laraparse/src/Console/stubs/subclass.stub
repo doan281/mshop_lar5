@@ -1,0 +1,18 @@
+<?php
+
+namespace DummyNamespace;
+
+use Parse\ParseObject;
+use LaraParse\Traits\CastsParseProperties;
+
+/**
+ * Class DummyClass
+ *
+ * @package LaraParse
+ */
+class DummyClass extends ParseObject
+{
+    use CastsParseProperties;
+
+    public static $parseClassName = '{{parseClass}}';
+}
